@@ -1,64 +1,64 @@
 .main-page {
-	background-color: rgba(23, 25, 27, 1);;
-	color: white;
+    background-color: rgba(23, 25, 27, 1);;
+    color: white;
 
-	.balance {
+    .balance {
 
-		padding: 11px 32px;
-		width: 30vh;
-		float: left;
-		text-align: center;
-		font-size: 2vh;
-		border: 2px solid #FFF;
-		border-radius: 8px;
-		margin-right: 5vh;
-	}
+        padding: 11px 32px;
+        width: 30vh;
+        float: left;
+        text-align: center;
+        font-size: 2vh;
+        border: 2px solid #FFF;
+        border-radius: 8px;
+        margin-right: 3vh;
+    }
 
-	button {
-		padding: 11px 32px;
-		font-size: 2vh;
-		transition-duration: 0.4s;
+    button {
+        padding: 11px 32px;
+        font-size: 2vh;
+        transition-duration: 0.4s;
 
-	}
-
-
-	.balance-divs {
-		margin-top: 3vh !important;
-	}
-
-	.negr-work {
-		width: 40vh;
-		height: 43vh;
-	}
-
-	.spinning-coin {
-		width: 6vh;
-		height: auto;
-	}
-
-	.mined-coins {
-		font-weight: 700;
-		font-size: 6vh;
-	}
-
-	.mined-coins, .spinning-coin {
-		margin: 0; /* Remove default margins */
-		padding: 0; /* Remove default padding */
-	}
+    }
 
 
-	.lightning-tons {
-		font-size: 4vh;
-		font-weight: 400;
-	}
+    .balance-divs {
+        margin-top: 3vh !important;
+    }
 
-	.lightning {
-		width: auto;
-		height: 4vh;
-	}
+    .negr-work {
+        width: 40vh;
+        height: 43vh;
+    }
 
-	.action-buttons {
-		margin-top: 4vh !important;
-	}
+    .spinning-coin {
+        width: 6vh;
+        height: auto;
+    }
+
+    .mined-coins {
+        font-weight: 700;
+        font-size: 6vh;
+    }
+
+    .mined-coins, .spinning-coin {
+        margin: 0; /* Remove default margins */
+        padding: 0; /* Remove default padding */
+    }
+
+
+    .lightning-tons {
+        font-size: 4vh;
+        font-weight: 400;
+    }
+
+    .lightning {
+        width: auto;
+        height: 4vh;
+    }
+
+    .action-buttons {
+        margin-top: 4vh !important;
+    }
 }
 

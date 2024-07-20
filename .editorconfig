@@ -6,5 +6,5 @@ end_of_line = lf
 indent_size = 4
 indent_style = space
 insert_final_newline = false
-max_line_length = 0
+max_line_length = 999
 tab_width = 4

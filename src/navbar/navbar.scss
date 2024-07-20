@@ -1,32 +1,35 @@
 @use '/src/variables';
 
 
-nav{
-  border-bottom: 2px solid #FFF;
-  height: 8vh;
-  background-color: variables.$accent-color-gray;
-  color: white ;
-  font-size: 24px;
-  img, .icon{
-    transform: translate(0, 15%);
-    //margin-left: 20vw;
-    height: 6vh;
-    width: 6vh;
-  }
-  a, .pages{
-    margin-right: 1vw;
-    margin-top: 1.5vh !important;
-    color: white ;
-  }
-  .first1{
-    margin-right: 100px;
-  }
+nav {
+    border-bottom: 2px solid #FFF;
+    height: 8vh;
+    background-color: variables.$accent-color-gray;
+    color: white;
+    font-size: 24px;
+
+    img, .icon {
+        transform: translate(0, 15%);
+        //margin-left: 20vw;
+        height: 6vh;
+        width: 6vh;
+    }
+
+    a, .pages {
+        margin-right: 1vw;
+        margin-top: 1.5vh !important;
+        color: white;
+    }
+
+    .first1 {
+        margin-right: 100px;
+    }
 }
 
 @media(max-width: 800px) {
-  a {
-    display: none;
-  }
+    a {
+        display: none;
+    }
 
 }
 
