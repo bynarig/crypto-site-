@@ -29,11 +29,11 @@ function MainWindow () {
                 </div>
                 <img className="col-2 col-sm-1 col-md-2 col-lg-1 lightning" src="/lightning.png" alt=""/>
             </div>
-            <div className="row justify-content-evenly d-flex align-items-center action-buttons">
-                <button className="col-5 col-sm-4  col-md-4 col-lg-1 text-center">
+            <div className="row justify-content-evenly d-flex align-items-center action-buttons ">
+                <button className="col-5 col-sm-4  col-md-4 col-lg-1 text-center claim">
                     CLAIM
                 </button>
-                <button className="col-5 col-sm-4  col-md-4 col-lg-1 text-center">
+                <button className="col-5 col-sm-4  col-md-4 col-lg-1 text-center boost">
                     BOOST
                 </button>
             </div>

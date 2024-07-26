@@ -24,13 +24,15 @@ nav {
     .first1 {
         margin-right: 100px;
     }
-}
 
-@media(max-width: 800px) {
-    a {
-        display: none;
+    @media(max-width: 800px) {
+        a {
+            display: none;
+        }
+
     }
-
 }
+
+
 
 

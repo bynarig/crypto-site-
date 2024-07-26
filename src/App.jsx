@@ -1,19 +1,19 @@
-// import logo from './logo.svg';
-// import './App.css';
-
 import MainPage from "./main-page/main-page.jsx";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Transactions from "./transactions/transactions.jsx";
 
 function App () {
     return (<BrowserRouter>
             <Routes>
-                {/*<Route path="/dev/*" element={<ComponentsRouter />} />*/}
                 <Route path="/" element={<MainPage/>}/>
+                <Route path="/transactions" element={<Transactions/>}/>
+
+                {/*// Add new routes there ⏫⏫⏫*/}
+                <Route path="/*" element={<MainPage/>}/>
+                {/*/* if adress is wrong -> redirect to main page*/}
             </Routes>
         </BrowserRouter>
-        // <div className="App">
-        //   <MainPage/>
-        // </div>
+
     );
 }
 

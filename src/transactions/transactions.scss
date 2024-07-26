@@ -1,0 +1,92 @@
+.transactions-page {
+    background-color: rgba(23, 25, 27, 1);;
+    color: white;
+
+    .balance-divs {
+        margin-top: 3vh !important;
+    }
+
+    .balance {
+
+        padding: 11px 32px;
+        width: 30vh;
+        float: left;
+        text-align: center;
+        font-size: 2vh;
+        border: 2px solid #FFF;
+        border-radius: 8px;
+        margin-right: 3vh;
+    }
+
+    .boost-button {
+
+        max-width: 80%;
+        width: 55vh;
+        padding: 11px 32px;
+        justify-content: center;
+        text-align: center;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 2vh;
+
+        &:hover {
+            color: black;
+        }
+    }
+
+    .transaction-history {
+        h1 {
+            color: #FFF;
+
+            font-family: Montserrat;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+
+        margin-top: 3vh;
+        margin-left: 5vw;
+    }
+
+    .table-headers {
+        margin-top: 3vh !important;
+        justify-content: center;
+        text-align: center;
+        max-width: 95%;
+
+        @media(min-width: 800px) {
+            font-size: 2vh;
+            //margin-left: 10vw !important;
+
+        }
+    }
+
+    .table-contents {
+
+        &, p {
+            font-size: 1vh;
+        }
+
+        justify-content: center;
+        text-align: center;
+        max-width: 95%;
+
+        margin-top: 3vh !important;
+
+        height: 6vh;
+        border-radius: 13px;
+        border: 2px solid #FFF;
+        //background: #17191B;
+
+        &-col {
+            padding-top: 0.7vh;
+        }
+
+        img {
+            width: 4vh;
+            height: auto;
+        }
+    }
+
+}
